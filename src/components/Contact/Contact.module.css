@@ -1,0 +1,30 @@
+.ContactContent{
+  display: flex;
+}
+
+.Contact{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.Contact h1{
+  margin: 20px;
+}
+
+.Img{
+  width: 50vw;
+}
+
+@media (max-width: 600px){
+  .ContactContent{
+    flex-direction: column;
+  }
+  
+  .Contact, .Img{
+    width: 100%;
+  }
+}
