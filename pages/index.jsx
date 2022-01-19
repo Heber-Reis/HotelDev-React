@@ -1,4 +1,5 @@
 import Contact from "../src/components/Contact/Contact";
+import Footer from "../src/components/Footer/Footer";
 import Header from "../src/components/Header/Header";
 import MainInfo from "../src/components/MainInfo/MainInfo";
 
@@ -8,6 +9,7 @@ function HomePage () {
       <Header/>
       <MainInfo/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
