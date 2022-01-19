@@ -36,17 +36,22 @@
 }
 
 .Services{
-  padding: 20px 200px;
+  width: 70vw;
+  margin: 20px auto;
 }
 
 .ServicesContent{
   margin-top: 20px;
   display: flex;
-  gap: 30px;
+  justify-content: space-around;
 }
 
 .ServicesCard{
   background-color: rgba(12, 186, 209);
+}
+
+.imgServices{
+  max-width: 100%;
 }
 
 .ServicesText{
@@ -65,9 +70,7 @@
     width: 100%;
   }
 
-  
-
-  .Services{
-    padding: 20px 30px;
+  .ServicesContent{
+    gap: 20px;
   }
 }
