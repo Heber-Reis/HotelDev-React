@@ -2,7 +2,6 @@
 .Header {
   min-height: 350px;
   color: white;
-  font-family: 'Roboto', sans-serif;
   background: url("/images/praia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,6 +30,11 @@
   font-size: .8em;
   border-radius: 5px;
   transition: all 0.25s ease-out;
+  text-decoration: none;
+}
+
+.buttonNone{
+  display: none;
 }
 
 .button:hover{

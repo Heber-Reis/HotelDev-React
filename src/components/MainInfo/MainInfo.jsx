@@ -1,4 +1,5 @@
 import styles from "./style.module.css"
+import BtnReserv from "../ButtonReserv/BtnReserv";
 
 function MainInfo () {
   return(
@@ -8,7 +9,7 @@ function MainInfo () {
         <div className={styles.Resumo}>
           <h1>Salvador, BA, Brasil</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ea veniam odio sed, enim voluptate rem exercitationem at est odit reiciendis corrupti facere? Eaque a, hic nam labore assumenda numquam.</p>
-          <button className={styles.button}>Reservar agora!</button>
+          <BtnReserv className={styles.button}/>
         </div>
       </div>
       <div className={styles.Services}>

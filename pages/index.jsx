@@ -6,7 +6,7 @@ import MainInfo from "../src/components/MainInfo/MainInfo";
 function HomePage () {
   return(
     <div>
-      <Header/>
+      <Header Btn={true}/>
       <MainInfo/>
       <Contact/>
       <Footer/>
